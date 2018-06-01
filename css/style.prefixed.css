@@ -36,9 +36,12 @@ body main .box .author {
 
 body main .button-box .trigger,
 body main .button-box .tweet {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   text-decoration: none;
   color: white;
   font-size: 15px;
@@ -54,5 +57,4 @@ body main .button-box .fa {
   margin-right: 2px;
   font-size: 25px;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
